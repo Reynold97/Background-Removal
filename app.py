@@ -73,4 +73,4 @@ with gr.Blocks(title=app_title, css=css) as demo:
 
 if __name__ == "__main__":
     # Launch with customized parameters
-    demo.launch(show_error=True, server_port=8080, show_api=False, server_name="0.0.0.0")
+    demo.launch(show_error=True, server_port=8090, show_api=False, server_name="0.0.0.0")
